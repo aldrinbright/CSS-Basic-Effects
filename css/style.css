@@ -207,6 +207,7 @@ li > a {
     left: 50%;
     transform: translateX(-50%);
     color: transparent;
+    z-index: 2;
 }
 
 .container::before {
@@ -221,6 +222,7 @@ li > a {
     transition: 0.3s ease-in-out;
     clip-path: polygon(25px 0, 100% 0, 100% 100%, 0 100%, 0 42%);
     box-shadow: 29px 32px 26px rgba(3, 3, 3, 0.349);
+    z-index: 1;
 }
 
 .container:hover::before {
